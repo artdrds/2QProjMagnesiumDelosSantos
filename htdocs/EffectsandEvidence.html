@@ -1,0 +1,367 @@
+<!--
+Color Scheme: #03071e // #6a040f // #dc2f02 // #f48c06 // #ffba08
+
+This html code contains the information for the "Climate Change: Effects and Evidence" webpage
+
+It includes the following:
+Header: The Site Logo (Yellow Orange Earth Icon), The Title, Burning trees as a background (with gradient color)
+
+Appearing/disappearing side navigation bar and its button: To help users browse through the contents of the page, The button is to make the side navigation bar open so that the
+      user can choose whether he/she wants it to stay open or closed.
+
+Horizontal menu bar: The menu that the user can go to when he/she wants to go to another webpage within the website (Causes, Effects and Evidence, Organizations, Ways to Help)
+
+Content: Images that show the disasters caused by Climate Change (with description), Effects of Climate Change on: Environment, Economy, Animals, Society, Human Health
+          + Videos and Images regarding Climate Change's Effects and Proof of Existence
+
+Footer: Links to different Climate Change Organizations, Other websites that talk about the Climate Change (Resources), References (Sources), Information about me (the creator), 
+My email and social media accounts (FB and IG)
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Art Delos Santos">
+    <meta name="keywords" content="Effects of Climate Change, Evidences of Climate Change">
+    <meta name="created" content="12-18-2021">
+    <meta name="revised" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    
+    <link rel="icon" href="../images\Earth.png" type="image/png">
+    <link rel ="stylesheet" href = "../css/EffectsandEvidence.css" type = "text/css">
+
+    <title>Climate Change: Effects & Evidence</title>
+    
+  </head>
+
+  <body>
+    <header id="header">
+      <a href = "../index.html"><img src = "../images/Earth.png"></a> 
+      <h1 id="mainheader">Climate Change: <br> Effects & Evidence</h1>
+    </header>
+
+    <nav id="navigation1">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="Causes.html">CAUSES</a></li>
+        <li><a href="EffectsandEvidence.html">EFFECTS & EVIDENCES</a></li>
+        <li><a href="Organizations.html">ORGANIZATIONS</a></li>
+        <li><a href="WaystoHelp.html">WAYS TO HELP</a></li>
+      </ul>
+    </nav>      
+
+    <section>
+      <span id="navbutton" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          
+        <section>
+            <aside class="ND" id="ND">
+              <div> 
+                <img id="img1" src=https://oi-files-d8-prod.s3.eu-west-2.amazonaws.com/s3fs-public/2020-01/OES_42498_Ethiopia_Kawsar%20Omer%20Abdi.jpg>
+                <img id="img2" src=https://www.gannett-cdn.com/presto/2021/09/03/USAT/98d28471-70e4-4b9d-aab2-388dee189088-Ida-Climate-change-topper_Desktop-imageLG2.png?crop=1913,1076,x325,y5>
+              </div>
+              <br><br><br>
+              <p> You've probably heard of several news about natural disasters that are often associated to Global Warming and Climate Change. Moreover, it's often said that
+                the drastic changes in long-term weather patterns have made the natural disasters more destructive, and worse many experts and individuals have claimed that it's
+                slowly killing life on Earth. From the breaking ice shelves in the Arctic and Antarctic polar regions, rising sea levels, melting ice caps, animals losing their 
+                natural habitats, extinction of some species, floods, wildfires, drought, storms, tornadoes, and to many more, the presence of alarming environmental issues should 
+                be enough to call our attention and make us realize something is wrong. While many people would still argue that there are many factors that contribute to these disasters,
+                it doesn't matter if we believe this is caused by Climate Change or not. The point is that life on Earth is suffering and the consequences of changing climate is showing.
+              </p>
+            </aside>
+            <br><hr>
+
+            <section class="Effects" id="table">
+              <h1>Effects of Climate Change</h1>
+              <table>
+                <tr>
+                  <th>On the Environment: </th>
+                  <th>On Animals and Plants</th>
+                </tr>
+                <tr>
+                  <td>
+                    From wildfires to seasons of drought, and to more frequent storms, it can be said that our weather patterns are changing. For instance, in 2012, Alaskan winters are said
+                    to have warmed up by 3.5°C, and even the storms in the region have become <i>more destructive</i>. Some coastlines have crumbled into the sea because there was no sea ice 
+                    nearby that could protect the coast from the severe weather. 
+                    <br><br> 
+                    Meanwhile, warmer temperatures have caused drought conditions in North American forests, and this resulted to the weakening of trees that are not as healthy and shorter than they used to be. 
+                    In return, these trees easily die because animals that survive warmer temperatures reproduce faster than the amount of time the tree needs to strengthen. 
+                    <br><br> 
+                    As for wildfires, it was said that in 2007, Canada, Alaska, and states to the west and north of the Rocky Mountains lost more acres to fires than during any year in recorded history, except 
+                    in 2006. In Russia, massive destruction of their northen forests were recorded due to fires in 2010. In the same year, 17,000 people died from one heat and storm system in Russia and Pakistan. This is more deaths than from all airplane crashes in the last 15 years prior to the 
+                    occurrence.
+                    <br><br> As for our oceans, the shrinking ice and rising sea levels over the years have alarmed many scientists. The shrinking glaciers and ice are believed to be a cause of the rise 
+                    in the temperatures because this event exposes a larger area of dark oceans and lands. Dark, open oceans and uncovered land reflect less light than ice does. Consequently, water and air warm up 
+                    and set off the feedback loop of more Carbon Dioxide release from the ocean; hence, there is more warmth causing more ice to melt.
+                    <br><br>
+                    In the last hundred years, sea levels around the world have risen nearly a foot. Many experts claim that the warmer temperatures melting the land ice caused the rise in sea levels. 
+                    <br><br> 
+                    Though most of these data are from about a decade ago, these have not stopped happening. In fact, many scientists claim that it's just getting worse. From the Australian Bushfires and Amazon
+                    Forest Wildfires in 2020 to so many more wildfires in 2021, the situation is, in fact, not getting better. According to Insurance Information Insitute (n.d.), 
+                    <br><br> 
+                    "In 2021, there were 58,985 wildfires, compared with 58,950 in 2020, according to the National Interagency Fire Center. About 7.1 million acres were burned in 2021, compared with 10.1 
+                    million in 2020. On November 26, 2021, three states reported four large fires including Alabama, which had two fires and California and Montana where each had one fire burning. Record 
+                    rainfall that occurred at the end of October point to the end of the fire season for northern California, but also brought debris flows to the area. However, the situation is different 
+                    in southern California, which did not have as much rain. Further, that region's prime fire months often come in November and December."
+                    <br><br>
+                    <i>From our lands, to our waters, and to the air we breathe, the effects of Climate Change is showing.</i>
+                  </td>
+                 
+                  <td>
+                    There is no denying that plants and animals are just as affected as human life. Unfortunately, due to Climate Change, many species of plants and animals have been lost because
+                    unlike humans, animals and plants can not turn on air conditioners or fans when the temperatures are too high for them; hence, some of them weaken and eventually die out. Additionally,
+                    natural disasters like forest fires and destruction of ice caps in the poles are some of the main reasons why many animals lose their natural habitats. Furthermore, deforestration, 
+                    development, and drier conditions have also destroyed animals' natural habitats. Preserving natural habitats is very crucial in protecting the lives of animals and plants because these
+                    locations are meant to provide the right living conditions for certain species of plants and animals. However, the rise in temperatures has proven that these habitats are slowly disappearing. 
+                    <br><br>
+                    Global warming is drying up lakes and wetlands where birds and fish are known to breed and live. The more unpredictable temperature changes compromise the timing of animal movements and their 
+                    food supply. For instance, some plants set seed and some insects breed before birds and animals have arrived to feed on them. 
+                    <br><br> 
+                    Woodland animals, like bears, that typically hibernate during cold weather are doing so for shorter periods because of warmer temperatures. These species tend to starve, and many of them end up waking 
+                    up before the plants they feed on are in bloom. <br><br>
+                    In the last few decades, nearly a thousand animal species have shown changes in their habitats, and some were simply forced to change locations due to the living conditions in their previous place. For instance,
+                    red foxes haved moved into the territory of Arctic foxes. 
+                    <br><br>
+                    Meanwhile, there are species of fish, along with other aquatic animals, that haved moved northward—where there are cooler waters. This migration also affects the southern marine animals that 
+                    depend on these migrating fish for food. 
+                    <br><br> 
+                    Fish worldwide are getting smaller and laying fewer eggs because of warming ocean temperatures. This change affects other animals' food supply, including humans! 
+                    <br><br> 
+                    The melting glaciers and ice in the polar regions are also affecting that animals that live there.Polar bears are thinner and unhealthier than at any other time in the past. 
+                    <br><br> 
+                    Larger populations are at risk for malaria because warmer temperatures have enlarged the zones where malaria-carrying mosquitoes live and breed.
+                    <br><br>
+                    <i>From disappearing plant animal life to the evident changes that occur to different species' living conditions, the effects of Climate Change are showing. </i>
+                  </td>
+                </tr>
+                <tr>
+                  <th>On the Economy</th>
+                  <th>To the Society and Human Health</th>
+                </tr>
+                <tr>
+                  <td>
+                    Agriculture: With unpredictable weather patterns and more extreme weather conditions, many fields have been washed away by floods, and even livestock have drowned. Consequently, this has 
+                    devastated many businesses that invest money in these resources.Furthermore, the effects of Climate Change to marine life is compromising the fishing industry. Meanwhile, the lost of 
+                    different species' natural habitats is also affecting the hunting industry. Additionally, even crop yields are known to have reduced because of increased heat and drought. The increase
+                    in temperature is affecting the growth of the resources that helps run our worldwide markets, and for that reason, Agriculture is actually the most vulnerable to climate risk.
+                    <br><br>
+                    Infrastructure: Due to the continuous rise of sea levels, many buildings, runways, roads, and other infrastructures are at more risk of getting flooded and destroyed. This will affect
+                    the economy because reparing the damages would require governments to use their funds. According to Columbia Climate School (2019), 
+                    <br><br>
+                    "In addition, our communication systems will be affected. A 2018 study  found that over 4,000 miles of fiber optic cable as well as data centers, traffic exchanges and termination points — 
+                    the lifeblood of the global information network — are at risk from sea level rise. According to NOAA’s sea level rise projections, this infrastructure could be underwater by 2033 because most 
+                    of it is buried along highways and coastlines. When it was built 25 years ago, climate change was not a concern, so while the cables are water resistant, they are not waterproof. New York, 
+                    Miami and Seattle and large service providers including CenturyLink, Intelliquent and AT&T are most at risk. Threats to the internet infrastructure could have huge implications for businesses 
+                    in the U.S."
+                    <br><br>
+                    Tourism: In simple terms, popular attractions that are located in natural areas are slowly changing. "For example, rapid warming in the Adirondack Mountains could decimate the winter activity sector, 
+                    which makes up 30 percent of the local economy." (Columbia Climate School, 2019)
+                    <br><br>
+                    Businesses and Financial Market: According to Columbia Climate School (2019), "The frequency and intensity of extreme weather, both in the U.S. and in other countries, can damage factories, supply chain operations and other 
+                    infrastructure, and disrupt transport. Drought will make water more expensive, which will likely affect the cost of raw materials and production. Climate volatility may force companies to deal 
+                    with uncertainty in the price of resources for production, energy transport and insurance. And some products could become obsolete or lose their market, such as equipment related to coal mining 
+                    or skiing in an area that no longer has snow."
+                    <br><br>
+                    For more information: Check out the Sources in the Footer Section of the Page and Select "Effects on Economy".
+                    <br><br>
+                    <i>From our agriculture, businesses, and infrastructures, the effects of Climate Change are showing.</i>
+                  </td>
+                  <td>
+                    Aside from the Economy, the Environment, and the plant and animal life, the society and human health are greatly affected too. Because of Climate Change, there are more extreme weather conditions
+                    that disrupt humans' living conditions. For instance, typhoons in the Philippines do not simply destroy houses and shut down businesses, these also leave people homeless and unable to provide 
+                    for themselves. Moreover, the people living in flooded areas do not often get help as soon as possible, and this makes it harder for the people affected by the storm. Additionally, rising sea levels
+                    endangers citizens that live in coastal areas because coastal storms, along with the increased height of sea levels, also increases the risk of erosion, storm surge, and flooding. Heavy rainfall in general 
+                    is known to be a huge problem to roads, rail lines, airports, port facilities, energy infrastructures, and military bases. Consequently, people that work here or make use of these infrastructures are affected
+                    too.
+                    <br><br>
+                    Aside from storms affecting people, wildfires and pollution also worsen the air quality, leading to more respiratory-related diseases. Higher temperatures also increase the risks of stroke, especially to 
+                    elderlies and individuals who have a history related to this condition. According to Picture of America (n.d.), an average of 658 people suffer from heat stroke each year.
+                    <br><br>
+                    According to Columbia Climate School (2019), <br><br>
+                    "Increasing warmth and precipitation will also add to the risk of waterborne and foodborne diseases and allergies, and spur the proliferation of insects that spread diseases like Zika, West Nile, 
+                    dengue and Lyme disease into new territories. Extreme weather and climate-related natural disasters can also exacerbate mental health issues. The most vulnerable populations, such as the elderly, 
+                    children, low-income communities and communities of color, will be most affected by these health impacts.
+                    <br><br>
+                    Temperature extremes are also projected to cause the loss of two billion labor hours each year by 2090, resulting in $160 billion of lost wages. Because of heat exposure, productivity in the 
+                    Southeast and Southern Great Plains regions is expected to decline by 3 percent, and some counties of Texas and Florida could lose more than 6 percent of labor hours each year by 2100. According 
+                    to a 2014 Rhodium Group study, the largest climate change-related economic losses in the U.S. will be from lost labor productivity."
+                    <br><br>
+                    On the other side of the story, we know that wildfires are natural occurrences; however, what makes it harmful and alarming is its duration. The increasing temperature prolongs wildfire seasons
+                    and makes the fire bigger—leading to so much more damage.
+                    <br><br>
+                    "The capacity of ecosystems like forests, barrier beaches, and wetlands to buffer the impacts of extreme 
+                    events like fires, floods, and severe storms is being overwhelmed. The rising temperature and changing chemistry of ocean water is combining with other stresses, such as overfishing and pollution,
+                    to alter marine-based food production and harm fishing communities." (Global Change, n.d.)
+                    <br><br>
+                    For more information: Check out the Sources in the Footer Section of the Page and Select "Impacts on Society".
+                    <br><br>
+                    <i>From living conditions of our society to the very health of humans, the effects of Climate Change are showing.</i>
+
+
+                  </td>
+                </tr>
+                <tr>
+                </tr>
+              </table>
+
+              <div class="container" id="Video">
+                <a href="https://www.youtube.com/watch?v=RWHsDuwHJoI&list=PLcKBvP9KRtNkfYRE6d2XplfAaWEh0MGVI&index=9" target="_blank"><img src="../images/Effects.png" class="image"></a>
+                <div class="overlay">CLICK TO WATCH: 10 Undeniable Consequences of Climate Change</div>
+              </div>
+            <br>
+            </section>
+
+            <br><hr>
+
+            <section class="Evidence" id="Video2">
+              <h1>Evidences of Climate Change</h1>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/mK5TbGvvluk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+            </section>
+            <br><hr>
+
+            <section class="Images" id="imgs">
+              <h1>Images of Climate's Change Effects</h1>
+              <div>
+                <a href="https://www.scientificamerican.com/article/severe-wildfires-raise-the-chance-for-future-monstrous-blazes/" target="_blank">
+                  <img src="https://static.scientificamerican.com/sciam/cache/file/38A06FAD-787A-4C6E-8EAF7961B4A15286_source.jpg?w=590&h=800&E88BF874-B829-4466-80F6C05B82F21F2D">
+                </a>
+                  <p>Wildfires</p>
+              </div>
+
+              <div>
+                <a href="https://www.bbc.com/news/av/science-environment-42031999" target="_blank">
+                  <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p05ndyhs.jpg">
+                </a>
+                <p>Melting Ice/Glaciers</p>
+              </div>
+
+              <div>
+                <a href="https://ourworld.unu.edu/en/sea-level-rise-is-inevitable-but-we-can-still-prevent-catastrophe-for-coastal-regions" target="_blank">
+                  <img src="https://i.unu.edu/media/ourworld.unu.edu-en/article/21453/sea-level-rise-is-inevitable-but-we-can-still-prevent-catastrophe-for-coastal-regions.jpg">
+                </a>
+                <p>Rising Sea Levels</p>
+              </div>
+
+              <div>
+                <a href="https://www.smithsonianmag.com/science-nature/eight-ways-climate-change-hurts-humans-180950475/" target="_blank">
+                  <img src="https://th-thumbnailer.cdn-si-edu.com/TnbxZw-kgVMbj2sZ_V57zx2K2wM=/1072x720/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d3/5a/d35ac20e-67cc-4fa5-8c2a-d626bc02c871/drought_kenya.jpg">
+                </a>
+                <p>Animals Suffering</p>
+              </div>
+
+              <div>
+                <a href="https://www.domesticpreparedness.com/resilience/planning-needed-climate-change-impact-on-animals/" target="_blank">
+                  <img src="https://www.domesticpreparedness.com/site/assets/files/10334/istock-472140651-polarbear-1.1022x0-is.jpg">
+                </a>
+                <p>Animals Suffering</p>
+              </div>
+
+              <div>
+                <a href="https://utsc.utoronto.ca/news-events/breaking-research/climate-change-driving-years-intense-hurricane-season" target="_blank">
+                  <img src="https://utsc.utoronto.ca/news-events/sites/utsc.utoronto.ca.news-events/files/image/article/cold-front-warm-front-hurricane-felix-76969.jpeg">
+                </a>
+                <p>More Intense Storms</p>
+              </div>
+
+              <div>
+                <a href="https://siwi.org/why-water/water-climate/" target="_blank">
+                  <img src="https://siwi.org/wp-content/uploads/2021/07/why-water_topics-present-at-launch_water-and-climate.jpg">
+                </a>
+                <p>Drought</p>
+              </div>
+
+              <div>
+                <a href="https://www.canadiangeographic.ca/article/photos-how-climate-change-transforming-canada" target="_blank">
+                  <img src="https://cangeo-media-library.s3.amazonaws.com/s3fs-public/styles/web_article_slider_image/public/images/web_articles/article_images/5392/climate_change_header.jpg?itok=AlQyQbxj">
+                </a>
+                <p>IT IS EVERYWHERE!</p>
+            </section>          
+        </section>
+    </section>    
+        
+    <aside id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#header">Menu</a>
+          <p>Contents:</p>
+          <a href="#ND">Pictures of Natural Disasters</a>
+          <a href="#table">Effects </a>
+          <a href="#Video"> Video: 10 Undeniable Consequences Of Climate Change</a>
+          <a href="#Video2"> Video: Climate Change Facts For Skeptics </a>
+          <a href="#imgs"> Evidences</a>
+          <a href="#footer">Footer</a>
+        </ul>
+    </aside>  
+      
+    <!--Below is a Javascript code for the side navigation bar-->
+    <script>
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("content").style.marginRight= "0";
+        document.body.style.backgroundColor = "#dc2f02";
+      }
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("content").style.marginRight = "250px";
+        document.body.style.backgroundColor = "#03071e";
+        document.body.style.zIndex ="9";
+      } 
+    </script> 
+
+    <footer class="footer-distributed">
+      <footer class="footer-left">
+        <h3 id="footer">Climate Change Organizations</h3>
+          <div>
+            <a href="https://oceanic.global/" target="_blank"><img id="img1" src= "../images/org1.jpg"></a>
+            <a href="http://www.asiapacificadapt.net/"  target="_blank"><img id="img2" src= "../images/org2.png"></a>
+            <a href="https://www.c40.org/"  target="_blank"><img id="img3" src= "../images/org3.png"></a>
+            <a href="https://citizensclimatelobby.org/"  target="_blank"><img id="img4" src= "../images/org4.jpg"></a>
+          </div>          	
+      </footer>
+
+      <footer class="footer-center">
+        <div>
+            <h3>Resources</h3>
+              <center>
+              <p class="footer-links">
+                <a href="https://climate.nasa.gov/" target="_blank">NASA</a>
+                |
+                <a href="https://foodtank.com/news/2020/10/36-organizations-helping-solve-the-climate-crisis/" target="_blank">Organizations</a>
+                |
+                <a href="https://www.nationalgeographic.org/encyclopedia/climate-change/" target="_blank">National Geographic</a>
+              </p
+              </center>
+        </div>
+
+        <div>
+            <h3>Sources</h3>
+              <center>
+                <p class="footer-links">
+                  <a href="https://www.iii.org/fact-statistic/facts-statistics-wildfires"target="_blank" >Wildfire Statistics </a>
+                  |
+                  <a href="https://news.climate.columbia.edu/2019/06/20/climate-change-economy-impacts/" target="_blank">Effects on Economy</a>
+                  |<br>
+                  <a href="https://www.globalchange.gov/climate-change/impacts-society" target="_blank">Impacts on Society</a>
+                </p>
+              </center>
+        </div>
+      </footer>
+
+      <footer class="footer-right">
+        <p class="footer-creator-about">
+        <span id="info">About the creator</span>
+        <p id="name">Art DR. Delos Santos</p>
+            <p id="school">Magnesium,B2025,PSHS-MC</p>
+        </p>
+        <center><div class="footer-icons">
+            <a href="https://www.facebook.com/"> <div class="facebook"></div></a>
+            <a href="https://www.instagram.com/cabwimthswiftearp/"> <div class="insta"></div></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=km#inbox"> <div class="gmail"></div></a>
+          <br>
+          <p>b2025addelossantos@pshs.edu.ph</p></center>     
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
+      
